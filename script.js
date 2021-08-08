@@ -10,7 +10,7 @@ frames.forEach(currFrame => {
 frames.forEach(currFrame => {
     currFrame.addEventListener('mouseover', () => {
         currFrame.classList.remove('active'); 
-    })
+    });
 }); 
 
 function removeActive() {
